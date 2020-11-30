@@ -20,7 +20,7 @@ We applied Random Forest Classification  and  XGBOOST  to  predict  the  possibl
 <ul>
   <li>KNN: ~41% </li>
   <li>Random Forest: ~45% </li>
-  <li>Xgboost: ~52% </li>
+  <li>Xgboost: ~54% </li>
 </ul>
 
 ### CLUSTERING
