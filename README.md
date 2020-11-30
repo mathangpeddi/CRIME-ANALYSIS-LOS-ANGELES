@@ -26,3 +26,19 @@ We applied Random Forest Classification  and  XGBOOST  to  predict  the  possibl
 ### CLUSTERING
 So initially we plot the locations of Los Angeles using the latitude and longitudes. Next we segregate the  most  probable  locations  into  5  clusters  depending  on  the total number of crimes committed in that particular location using the Kmeans Clustering technique. So the 5 colours represent the 5 different clusters along with their labels on the map.
 ![](images/CLUSTERED_MAP.png)
+
+# BIG PICTURE - A SAFE CITY
+<ul>
+  <li>Team Members:</li>
+  <ul style="list-style-type:circle">
+         <li>Adithya Bhat PR, PES1201800304</li>
+         <li>Rohit Kumar AS, PES1201801890</li>
+         <li>Mathang Peddi, PES1201800247</li>
+  </ul>
+  <li>Instructions to run the code:</li>
+  <ul style="list-style-type:circle">
+         <li>Dataset Link: <a href="https://drive.google.com/file/d/1w60FKrOy3NDHqnyx9ZiiFASfSDZzbUoF/view?usp=sharing">https://drive.google.com/file/d/1w60FKrOy3NDHqnyx9ZiiFASfSDZzbUoF/view?usp=sharing</a>
+         <li>Download 'Crime_Data_from_2010_to_2019.csv' and '012_LOS_ANGELES_CRIMES.ipynb'</li>
+         <li>Run '012_LOS_ANGELES_CRIMES.ipynb' colab file</li>
+  </ul>
+</ul>
