@@ -16,11 +16,11 @@ In this paper we try to understand the crime dynamics in a large city such as Lo
 ## MACHINE LEARNING
 
 ### CLASSIFICATION
-We applied Random Forest Classification  and  XGBOOST  to  predict  the  possible  crime category  based  on  several  features  like  Victim  Age,  Weapon Used, Area Name etc. Next we applied hyperparameter tuningusing  RandomizedSearchCV  to  our  XGBOOST  model  with3 fold cross validation to find out the average accuracy.
+We applied Random Forest Classification  and  XGBOOST  to  predict  the  possible  crime category  based  on  several  features  like  Victim  Age,  Weapon Used, Area Name etc. Next we applied hyperparameter tuning using  RandomizedSearchCV  to  our  XGBOOST  model  with 3 fold cross validation to find out the average accuracy.
 <ul>
-  <li>KNN: 41% </li>
-  <li>Random Forest: 44.2% </li>
-  <li>Xgboost: 48.7% </li>
+  <li>KNN: ~41% </li>
+  <li>Random Forest: ~45% </li>
+  <li>Xgboost: ~52% </li>
 </ul>
 
 ### CLUSTERING
