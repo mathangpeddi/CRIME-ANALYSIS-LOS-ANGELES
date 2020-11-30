@@ -7,7 +7,8 @@ Crime  as  the  word  suggests  it  is  the  infringement  that people  do  and 
 In this paper we try to understand the crime dynamics in a large city such as Los  Angeles by visualizing the crimes with respect to the location and the area they were committed in. We try to identify the patterns in the crimes with respect to location, area, dates/months and  analyze the dataset for patterns related to victim data (age,  gender and race) and time. For a given  time/weekday/location, predict the areas where a crime is most likely to happen, and cluster the locations depending on the number of crimes.
 
 ## EXPLORATORY DATA ANALYSIS
-![](images/WORDCLOUD.png)
+![](images/WORDCLOUD.png) <br>
+Most common crime types - VEHICLE, THEFT, COURT
 ![](images/BARGRAPH.png)
 ![](images/CRIMES_WRT_TIME.png)
 ![](images/VICT_SEX.png)
@@ -26,6 +27,11 @@ We applied Random Forest Classification  and  XGBOOST  to  predict  the  possibl
 ### CLUSTERING
 So initially we plot the locations of Los Angeles using the latitude and longitudes. Next we segregate the  most  probable  locations  into  5  clusters  depending  on  the total number of crimes committed in that particular location using the Kmeans Clustering technique. So the 5 colours represent the 5 different clusters along with their labels on the map.
 ![](images/CLUSTERED_MAP.png)
+Red - Cluster 0 (Locations with the least number of crimes(<1000)) <br>
+Purple - Cluster 1 (Locations with crimes ranging in between 2000-2500) <br>
+Blue - Cluster 2 (Locations with the highest number of crimes(>2500) <br>
+Green - Cluster 3 (Locations with crimes ranging in between 1000-1500) <br>
+Cream - Cluster 4 (Locations with crimes ranging in between 1500-2000) <br>
 
 # BIG PICTURE - A SAFE CITY
 <ul>
